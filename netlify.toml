@@ -1,0 +1,18 @@
+[build]
+  publish = "public"
+GATSBY_ALGOLIA_APP_ID = "YJB53K8LH1"
+GATSBY_ALGOLIA_SEARCH_KEY = "7de8c44cf9217b24843716dc5082e0cf"
+ALGOLIA_ADMIN_KEY = "7de8c44cf9217b24843716dc5082e0cf"
+GOOGLE_ANALYTICS_ID = "UA-147090349-7"
+GATSBY_GOOGLE_MAPS_API_KEY = "AIzaSyCiPxmIqunie-A4bcAyceOP0CMo6EvwqCQ"
+GATSBY_DISQUS_NAME = "paulapplegate-com"
+
+
+[build.environment]
+  NODE_VERSION = "12.13.1"
+  YARN_VERSION = "1.22.4"
+
+[[redirects]]
+  from = "https://janosh.netlify.com/*"
+  to = "https://janosh.io/:splat"
+  force = true
